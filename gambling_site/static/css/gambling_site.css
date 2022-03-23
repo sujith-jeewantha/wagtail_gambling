@@ -11485,6 +11485,49 @@ nav a:hover::after {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  .landing-logo {
+    width: 100%;
+  }
+
+  .nav-list-collapse{
+    position: absolute;
+    margin-left: 20px;
+    background-color: #f7bd00;
+    padding: 20px;
+    width: 90%;
+  }
+
+  .landing-page-toggle-button{
+    display: block !important;
+    text-align: center;
+    width: 42px;
+    margin-left: -8.5vw;
+  }
+
+}
+
+/* text-align: center;
+    width: 42px;
+    margin-left: -8.5vw; */
+
+
+
+@media only screen and (min-width: 600px) {
+  
+  .nav-list-collapse{
+    display: block !important;
+  }
+
+  .landing-logo {
+    width: 25vw;
+  }
+
+}
+
+
+
+
 
 .landing-page-background{
      /* The image used */
@@ -11500,7 +11543,7 @@ nav a:hover::after {
 }
 
 .home-page-container {
-    height: 74vh;
+    height: 50vh;
 }
 
 .home-page-button {
@@ -11510,7 +11553,9 @@ nav a:hover::after {
     color: #000;
     margin: auto;
     align-content: center;
-    width: 15vw;
+    width: 110px;
+    height: 55px;
+    font-weight: 700;
 }
 
 .homePageModal {
@@ -11518,7 +11563,7 @@ nav a:hover::after {
 }
 
 .fa-facebook {
-    border-bottom-style: none;
+    text-decoration: none;
     padding: 10px;
     color: white;
   }
@@ -11558,17 +11603,15 @@ nav a:hover::after {
       padding: 0px 20vw;
       text-align: center;
       color: white;
-      margin: 15vh auto 5vh;
+      margin: 10vh auto 5vh;
   }
   
   .home-model{
       background-color: rgba(255,255,255, 0.5);
   }
   
-  .home-model-dialog{
-
-  }
-
-  .banner-text{
-
-  }
+ .landing-page-toggle-button{
+   display: none;
+   color: white;
+   margin: 5px;
+ }

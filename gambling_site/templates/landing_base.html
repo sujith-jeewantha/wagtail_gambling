@@ -38,13 +38,13 @@
             <div class="row">
               <div class="col-sm-12">
               
-                <div class="main-header p-5 text-white text-center">
+                <div class="main-header p-3 text-white text-center">
                   <div class="container">
                     <div class="row">
-                      <div class="col">
-                          <img src="{% static 'images/Logo-01white.png' %}" alt="Fjords" style="width:60%">
+                      <div class="col-xs-12 col-sm-6">
+                          <img class="landing-logo" src="{% static 'images/Logo-01white.png' %}" alt="">
                       </div>
-                      <div class="col social-buttons">
+                      <div class="col-xs-12 col-sm-6 social-buttons">
                         <div class="container">
                             <a href="#" class="fa fa-instagram"></a>
                             <a href="#" class="fa fa-twitter"></a>
@@ -52,29 +52,41 @@
                         </div>
                       </div>
                     </div>
+                    <div class="row">
+                      <button class="navbar-toggler landing-page-toggle-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                      </button>
+                
+      
+                      <div class="collapse navbar-collapse nav-list-collapse" id="navbarSupportedContent">
+      
+                      <nav class="navbar navbar-expand-sm justify-content-center">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a style="color: white;" class="nav-link " href="#">Our wellbeing</a>
+                          </li>
+                          <li class="nav-item">
+                            <a style="color: white;" class="nav-link " href="#">Money Matters</a>
+                          </li>
+                          <li class="nav-item">
+                            <a style="color: white;" class="nav-link" href="#">Alternatives to gambling</a>
+                          </li>
+                          <li class="nav-item">
+                            <a style="color: white;" class="nav-link " href="#">How to give & get help</a>
+                          </li>
+                          <li class="nav-item">
+                            <a style="color: white;" class="nav-link " href="#">Who makes this website?</a>
+                          </li>
+                        </ul>
+                      </nav>
+      
+                    </div>
+
+                    </div>
                   </div>
                 </div>
 
-          
-                <nav class="navbar navbar-expand-sm justify-content-center">
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                      <a style="color: white;" class="nav-link " href="#">Our wellbeing</a>
-                    </li>
-                    <li class="nav-item">
-                      <a style="color: white;" class="nav-link " href="#">Money Matters</a>
-                    </li>
-                    <li class="nav-item">
-                      <a style="color: white;" class="nav-link" href="#">Alternatives to gambling</a>
-                    </li>
-                    <li class="nav-item">
-                      <a style="color: white;" class="nav-link " href="#">How to give & get help</a>
-                    </li>
-                    <li class="nav-item">
-                      <a style="color: white;" class="nav-link " href="#">Who makes this website?</a>
-                    </li>
-                  </ul>
-                </nav>
+   
           
               </div>
           
