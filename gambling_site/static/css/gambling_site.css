@@ -11518,21 +11518,25 @@ nav a:hover::after {
 }
 
 .fa-facebook {
+    border-bottom-style: none;
     padding: 10px;
     color: white;
   }
 
   .fa-twitter {
+    border-bottom-style: none;
     padding: 10px;
     color: white;
   }
 
   .fa-instagram {
+    border-bottom-style: none;
     padding: 10px;
     color: white;
   }
 
   .social-buttons {
+      
       margin-top: 5%;
   }
 
