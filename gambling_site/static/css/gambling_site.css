@@ -11502,15 +11502,69 @@ nav a:hover::after {
 .home-page-container {
     height: 74vh;
 }
+
 .home-page-button {
     border-radius: 0px;
     box-shadow: -3px 3px #eb7700;
     background-color: #f7bd00;
     color: #000;
     margin: auto;
+    align-content: center;
     width: 15vw;
 }
 
 .homePageModal {
     background-color: #ede3c3;
 }
+
+.fa-facebook {
+    padding: 10px;
+    color: white;
+  }
+
+  .fa-twitter {
+    padding: 10px;
+    color: white;
+  }
+
+  .fa-instagram {
+    padding: 10px;
+    color: white;
+  }
+
+  .social-buttons {
+      margin-top: 5%;
+  }
+
+  .vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .home-button-align { 
+    height: 200px;
+    position: relative;
+  }
+
+  .landingpage_header{
+      width: 100vw;
+      padding: 0px 20vw;
+      text-align: center;
+      color: white;
+      margin: 15vh auto 5vh;
+  }
+  
+  .home-model{
+      background-color: rgba(255,255,255, 0.5);
+  }
+  
+  .home-model-dialog{
+
+  }
+
+  .banner-text{
+
+  }
