@@ -11351,12 +11351,48 @@ nav a {
 
 nav a::after {
   content: "";
-  background: blue;
-  height: 1px;
+  background: black;
+  height: 3px;
   position: absolute;
   bottom: 0;
   transition: .16s all 0.025s;
 }
+
+.red-btn::after {
+    content: "";
+    background: red;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    transition: .16s all 0.025s;
+  }
+
+  .darkblue-btn::after {
+    content: "";
+    background: darkblue;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    transition: .16s all 0.025s;
+  }
+
+  .blue-btn::after {
+    content: "";
+    background: blue;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    transition: .16s all 0.025s;
+  }
+
+  .green-btn::after {
+    content: "";
+    background: green;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    transition: .16s all 0.025s;
+  }
 
 nav a::after {
   left: 100%;
@@ -11375,7 +11411,7 @@ nav a:hover::after {
 
 .sub-bg {
   position: relative;
-  background-image: url('..images/Background-Pattern~1.png');
+  background-image: url('../images/Background-Pattern~1.png');
   background-repeat: no-repeat;
 }
 
@@ -11403,12 +11439,10 @@ nav a:hover::after {
   padding-bottom: 15rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../images/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 
 .img-brand {
@@ -11423,7 +11457,7 @@ nav a:hover::after {
 
 .footer-bg {
 
-	background: url('../assets/img/footer/Footer Oattern.png') center center;
+	background: url('../images/footer/Footer\ Oattern.png') center center;
 	background-size: cover;
 	background-color: #ddd;
 	height: 260px;
@@ -11434,14 +11468,14 @@ nav a:hover::after {
 }
 
 .footer-img {
-  background: url('../assets/img/footer/Footer Logo-01~1.png') center center;
+  background: url('../images/footer/Footer\ Logo-01~1.png') center center;
   background-size: cover;
   height: 70px;
 }
 
 .line-orange {
   height: 10px;
-  background-color: orange;
+  background-color: #f5bb80;
   width: 100%;
 }
 
@@ -11449,4 +11483,34 @@ nav a:hover::after {
   height: 2px;
   background-color: black;
   width: 100%;
+}
+
+
+.landing-page-background{
+     /* The image used */
+  background-image: url("../images/header-bg.jpg");
+
+  /* Full height */
+  height: 99vh; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-page-container {
+    height: 74vh;
+}
+.home-page-button {
+    border-radius: 0px;
+    box-shadow: -3px 3px #eb7700;
+    background-color: #f7bd00;
+    color: #000;
+    margin: auto;
+    width: 15vw;
+}
+
+.homePageModal {
+    background-color: #ede3c3;
 }

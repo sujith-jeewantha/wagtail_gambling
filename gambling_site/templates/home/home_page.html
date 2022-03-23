@@ -1,199 +1,51 @@
-{% extends "base.html" %}
+{% extends "landing_base.html" %}
+
+
+
 {% load static %}
+
+
 {% load wagtailcore_tags wagtailimages_tags %}
 
 {% block content %}
 
-<div class="line-orange"></div>
-
-<div class="home-bg">
-
-<div class="align-top">
-  <div class="row">
-    <div class="col-sm-12">
-    
-      <div class="main-header p-5 bg-primary text-white text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              1 of 2
-            </div>
-            <div class="col">
-              <div class="container">
-                <div class="row">
-                  <div class="col">
-                    1 of 3
-                  </div>
-                  <div class="col">
-                    2 of 3
-                  </div>
-                  <div class="col">
-                    3 of 3
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+ <!-- Modal -->
+ <div class="modal fade homePageModal" id="" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="border-bottom: none;">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            The Foundation acknowledges First Nations people as the
+            Traditional Owners and Custodians of the waterways and
+            of the land on which we live and work, and pays respect to
+            their Elders past, present and emerging.
+        </div>
+        <div class="modal-footer" style="border-top: none;">
+          <button type="button" class="btn btn-primary home-page-button" style="margin:auto">Go to site</button>
         </div>
       </div>
-
-      <nav class="navbar navbar-expand-sm justify-content-center">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Our wellbeing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Money Matters</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Alternatives to gambling</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">How to give & get help</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Who makes this website?</a>
-          </li>
-        </ul>
-      </nav>
-
-
     </div>
-
   </div>
-</div>
-</div>
 
-<div class="sub-bg">
+
+<div class="home-page-container">
 <div class=" container">
   <div class="row">
-    <div class="col-sm-12">
 
-      
+  <h1 style="color: white; align-items: center;">Ut wisi enim ad minim
+    veniam, quis nostrud</h1>
 
-
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            
-          </div>
-          <div class="col-6">
-            <div class="container">
-
-              <h1>Header</h1>
-
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget erat tortor. Nam a tellus laoreet,
-                ornare arcua, interdum mi. Vivamus in vestibulum lorem. Cras ut viverra justo. Integer eu nulla nulla.</p>
-
-
-
-
-              <div class="row row-cols-3">
-      
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="{% static 'images/content/Money freedom-01~1.jpg' %}" alt="Fjords" style="width:100%">
-      
-                    <div class="card-body">
-                      <p class="card-text">Money freedom</p>
-                    </div>
-                  </div>
-                </div>
-      
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="{% static 'images/content/Stories-01~1.jpg' %}" alt="Fjords" style="width:100%">
-      
-                    <div class="card-body">
-                      <p class="card-text">Stories</p>
-                    </div>
-                  </div>
-                </div>
-      
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="{% static 'images/content/Money Knowledge-01~1.jpg' %}" alt="Fjords" style="width:100%">
-      
-                    <div class="card-body">
-                      <p class="card-text">Money knowledge</p>
-                    </div>
-                  </div>
-                </div>
-      
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="{% static 'images/content/Safer gambling strategies-01~1.jpg' %}" alt="Fjords" style="width:100%">
-      
-                    <div class="card-body">
-                      <p class="card-text">Safer Gambling strategies</p>
-                    </div>
-                  </div>
-                </div>
-      
-                <div class="col">
-                  <div class="card shadow-sm">
-                    <img src="{% static 'images/content/Where does the money go-01~1.jpg' %}" alt="Fjords" style="width:100%">
-      
-                    <div class="card-body">
-                      <p class="card-text">Where does the money go</p>
-                    </div>
-                  </div>
-                </div>
-      
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            
-          </div>
-        </div>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary home-page-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Button
+  </button>
   
-      </div>
-
-
-
-      
-    </div>
+ 
 
   </div>
 </div>
-</div>
-
-<div class="footer-bg">
-
-<div class="container">
-  <footer class="py-3 my-4 ">
-    <div class="container">
-      
-      <div class="row">
-        <div class="col-3">
-          <div class="col-lg-3 my-3 my-lg-0">
-            <a class="btn btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-            <a class="btn btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-            <a class="btn btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-        </div>
-        </div>
-        <div class="col-7">
-          <h3 style="text-align: left;">1800 858 858</h3>
-          <p style="text-align: left;">free, confidential, 24/7 gambling helpline</p>
-        </div>
-        <div class="col-2">
-          <div class="footer-img"></div>
-        </div>
-      </div>
-    
-    </div>
-
-    <br>
-    <div class="line"></div>
-    <br>
-
-    <ul class="nav col-md-4 justify-content-start">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Terms of use</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Privacy policy</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact us</a></li>
-    </ul>
-  </footer>
 </div>
 
 </div>
